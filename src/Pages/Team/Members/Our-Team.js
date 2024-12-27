@@ -10,6 +10,7 @@ import laso from "../../../Animations/laso-animation.json";
 
 import Members from "../../../Assets/data/Members.json";
 import { useMediaQuery } from "react-responsive";
+import { green } from "@mui/material/colors";
 
 const CustomTitle = ({ title, subtitle, theme, sizeTitle, sizeSubTitle }) => {
   return (
@@ -75,7 +76,7 @@ const OurTeam = () => {
   const tablet = useMediaQuery({ minWidth: 601, maxWidth: 1080 });
   const desktop = useMediaQuery({ minWidth: 1081 });
 
-  const lasoRef = useRef <LottieRefCurrentProps> null;
+  const lasoRef = useRef < LottieRefCurrentProps > null;
 
   return (
     <main>
@@ -105,7 +106,7 @@ const OurTeam = () => {
           We are made of people
         </Typography>
         <img
-        loading="lazy"
+          loading="lazy"
           style={{
             width: "100%",
             position: "absolute",
@@ -231,6 +232,20 @@ const OurTeam = () => {
           image={humanResourcesDepartment.director.imgDirectory}
           emailAddress={humanResourcesDepartment.director.email}
           linkedinLink={humanResourcesDepartment.director.linkedin}
+        />
+        <CustomComponent
+          title={generalAssembly.director.title}
+          name={generalAssembly.director.name}
+          image={generalAssembly.director.imgDirectory}
+          emailAddress={generalAssembly.director.email}
+          linkedinLink={generalAssembly.director.linkedin}
+        />
+        <CustomComponent
+          title={fiscalCouncil.director.title}
+          name={fiscalCouncil.director.name}
+          image={fiscalCouncil.director.imgDirectory}
+          emailAddress={fiscalCouncil.director.email}
+          linkedinLink={fiscalCouncil.director.linkedin}
         />
       </div>
 

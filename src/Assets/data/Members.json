@@ -195,7 +195,7 @@
                     "name": "Duarte Rocha",
                     "imgDirectory": "Projetos/duarte_rocha.webp",
                     "email": "duarte.rocha@innova.pt",
-                    "linkedin": ""
+                    "linkedin": "https://www.linkedin.com/in/duarte-rocha-741652329/"
                 },
                 {
                     "name": "Francisco Oliveira",
@@ -267,7 +267,7 @@
                     "name": "Pedro Silvestre Lopes",
                     "imgDirectory": "Projetos/pedro_silvestre_lopes.webp",
                     "email": "pedro.silvestre@innova.pt",
-                    "linkedin": ""
+                    "linkedin": "https://www.linkedin.com/in/pedro-silvestre-lopes/"
                 },
                 {
                     "name": "Pedro Lopes",
@@ -291,7 +291,7 @@
                     "name": "Sara Sousa",
                     "imgDirectory": "Projetos/sara_sousa.webp",
                     "email": "sara.sousa@innova.pt",
-                    "linkedin": ""
+                    "linkedin": "https://www.linkedin.com/in/sara-sousa-3a1610329/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 },
                 {
                     "name": "Tiago Martinho",
@@ -411,18 +411,19 @@
         },
         {
             "name": "General Assembly",
+            "director": {
+                "title": "General Assembly President",
+                "name": "Rafael Abegão",
+                "imgDirectory": "Qualidade/rafael_abegao.webp",
+                "email": "rafael.abegao@innova.pt",
+                "linkedin": "https://www.linkedin.com/in/rafael-abeg%C3%A3o-2b69a926a/"
+            },
             "members": [
                 {
                     "name": "Catarina Rito",
                     "imgDirectory": "Marketing/catarina_rito.webp",
                     "email": "catarina.rito@innova.pt",
                     "linkedin": "https://www.linkedin.com/in/catarina-rito/"
-                },
-                {
-                    "name": "Rafael Abegão",
-                    "imgDirectory": "Qualidade/rafael_abegao.webp",
-                    "email": "rafael.abegao@innova.pt",
-                    "linkedin": "https://www.linkedin.com/in/rafael-abeg%C3%A3o-2b69a926a/"
                 },
                 {
                     "name": "Bruna Torgal",
@@ -434,18 +435,19 @@
         },
         {
             "name": "Fiscal Council",
+            "director": {
+                "title": "Fiscal Council President",
+                "name": "Nuno Duarte",
+                "imgDirectory": "Qualidade/nuno_duarte.webp",
+                "email": "nuno.duarte@innova.pt",
+                "linkedin": "https://www.linkedin.com/in/nuno-maria-duarte/"
+            },
             "members": [
                 {
                     "name": "Mariana Rocha",
                     "imgDirectory": "Projetos/mariana_rocha.webp",
                     "email": "mariana.rocha@innova.pt",
                     "linkedin": "https://www.linkedin.com/in/mariana-rocha-a57531181/"
-                },
-                {
-                    "name": "Nuno Duarte",
-                    "imgDirectory": "Qualidade/nuno_duarte.webp",
-                    "email": "nuno.duarte@innova.pt",
-                    "linkedin": "https://www.linkedin.com/in/nuno-maria-duarte/"
                 },
                 {
                     "name": "Catarina Henriques",
